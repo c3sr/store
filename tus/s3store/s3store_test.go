@@ -11,11 +11,11 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/rai-project/store/tus/s3store"
+	"github.com/c3sr/store/tus/s3store"
 	"github.com/tus/tusd"
 )
 
-//go:generate mockgen -destination=./s3store_mock_test.go -package=s3store_test github.com/rai-project/store/tus/s3store S3API
+//go:generate mockgen -destination=./s3store_mock_test.go -package=s3store_test github.com/c3sr/store/tus/s3store S3API
 
 // Test interface implementations
 var _ tusd.DataStore = s3store.S3Store{}

@@ -11,9 +11,9 @@ import (
 	"math"
 
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/rai-project/aws"
-	"github.com/rai-project/store"
-	"github.com/rai-project/store/s3"
+	"github.com/c3sr/aws"
+	"github.com/c3sr/store"
+	"github.com/c3sr/store/s3"
 )
 
 type S3FileSystem struct {

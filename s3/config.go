@@ -4,8 +4,8 @@ import (
 	"strings"
 
 	"github.com/k0kubun/pp"
-	"github.com/rai-project/config"
-	"github.com/rai-project/vipertags"
+	"github.com/c3sr/config"
+	"github.com/c3sr/vipertags"
 )
 
 type s3Config struct {

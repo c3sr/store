@@ -12,7 +12,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/fatih/structs"
 	"github.com/pkg/errors"
-	"github.com/rai-project/store"
+	"github.com/c3sr/store"
 )
 
 type lifetimeKey struct{}

@@ -5,8 +5,8 @@ import (
 
 	"github.com/k0kubun/pp"
 	"github.com/labstack/echo"
-	"github.com/rai-project/store"
-	"github.com/rai-project/uuid"
+	"github.com/c3sr/store"
+	"github.com/c3sr/uuid"
 )
 
 func put(c echo.Context) error {

@@ -3,11 +3,11 @@ package bolt
 import (
 	"context"
 
-	"github.com/rai-project/store"
+	"github.com/c3sr/store"
 )
 
 const (
-	basePathKey = "github.com/rai-project/store/bolt/basePath"
+	basePathKey = "github.com/c3sr/store/bolt/basePath"
 )
 
 func NewOptions() *store.Options {

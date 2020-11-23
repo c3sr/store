@@ -5,7 +5,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/labstack/echo"
-	"github.com/rai-project/store"
+	"github.com/c3sr/store"
 )
 
 func get(c echo.Context) error {

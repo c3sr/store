@@ -2,8 +2,8 @@ package web
 
 import (
 	"github.com/labstack/echo"
-	"github.com/rai-project/store"
-	"github.com/rai-project/store/s3"
+	"github.com/c3sr/store"
+	"github.com/c3sr/store/s3"
 )
 
 func storeMiddleware(opts ...store.Option) echo.MiddlewareFunc {

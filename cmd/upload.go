@@ -8,11 +8,11 @@ import (
 	"github.com/Unknwon/com"
 	"github.com/k0kubun/pp"
 	"github.com/pkg/errors"
-	"github.com/rai-project/archive"
-	"github.com/rai-project/aws"
-	"github.com/rai-project/store"
-	"github.com/rai-project/store/s3"
-	"github.com/rai-project/uuid"
+	"github.com/c3sr/archive"
+	"github.com/c3sr/aws"
+	"github.com/c3sr/store"
+	"github.com/c3sr/store/s3"
+	"github.com/c3sr/uuid"
 	"github.com/spf13/cobra"
 )
 

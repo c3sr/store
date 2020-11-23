@@ -4,9 +4,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	"github.com/rai-project/aws"
-	"github.com/rai-project/config"
-	"github.com/rai-project/store"
+	"github.com/c3sr/aws"
+	"github.com/c3sr/config"
+	"github.com/c3sr/store"
 )
 
 type options struct {

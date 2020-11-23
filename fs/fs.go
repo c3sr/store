@@ -4,9 +4,9 @@ import (
 	"io"
 
 	"github.com/pkg/errors"
-	"github.com/rai-project/aws"
-	"github.com/rai-project/config"
-	"github.com/rai-project/store/s3"
+	"github.com/c3sr/aws"
+	"github.com/c3sr/config"
+	"github.com/c3sr/store/s3"
 )
 
 type File interface {

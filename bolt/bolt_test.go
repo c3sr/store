@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	sourcepath "github.com/GeertJohan/go-sourcepath"
-	"github.com/rai-project/store"
+	"github.com/c3sr/store"
 	"github.com/stretchr/testify/assert"
 )
 

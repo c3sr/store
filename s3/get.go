@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/pkg/errors"
-	"github.com/rai-project/store"
+	"github.com/c3sr/store"
 )
 
 func (s *s3Client) Get(key0 string, opts ...store.GetOption) ([]byte, error) {

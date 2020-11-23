@@ -18,8 +18,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
 	humanize "github.com/dustin/go-humanize"
 	"github.com/pkg/errors"
-	"github.com/rai-project/store"
-	"github.com/rai-project/uuid"
+	"github.com/c3sr/store"
+	"github.com/c3sr/uuid"
 	"gopkg.in/cheggaaa/pb.v1"
 )
 
