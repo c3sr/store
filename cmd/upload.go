@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/Unknwon/com"
-	"github.com/k0kubun/pp"
+	"github.com/unknwon/com"
+	"github.com/k0kubun/pp/v3"
 	"github.com/pkg/errors"
 	"github.com/c3sr/archive"
 	"github.com/c3sr/aws"

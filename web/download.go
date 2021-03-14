@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/aws/aws-sdk-go/aws"
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 	"github.com/c3sr/store"
 )
 

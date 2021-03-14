@@ -1,7 +1,7 @@
 package web
 
 import (
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 	"github.com/c3sr/store"
 	"github.com/c3sr/store/s3"
 )
