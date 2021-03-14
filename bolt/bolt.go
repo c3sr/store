@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Unknwon/com"
+	"github.com/unknwon/com"
 	"github.com/boltdb/bolt"
 	"github.com/pkg/errors"
 	"github.com/c3sr/store"

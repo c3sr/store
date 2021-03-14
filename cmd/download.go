@@ -3,7 +3,7 @@ package cmd
 import (
 	"errors"
 
-	"github.com/k0kubun/pp"
+	"github.com/k0kubun/pp/v3"
 	"github.com/spf13/cobra"
 )
 
